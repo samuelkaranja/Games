@@ -1,0 +1,48 @@
+.register {
+  padding-top: 20px;
+}
+
+.register h1 {
+  color: green;
+  padding-bottom: 20px;
+}
+
+.frm {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+form {
+  max-width: 400px;
+}
+
+label {
+  display: block;
+  text-align: left;
+  font-size: 15px;
+  font-weight: 400;
+  color: #212529;
+  padding-bottom: 7px;
+}
+
+input {
+  width: 95%;
+  height: 23px;
+  padding: 5px 10px;
+  margin-bottom: 15px;
+  font-weight: 400;
+  color: #495057;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+}
+
+.reg_btn {
+  width: 100%;
+  font-size: 16px;
+  color: #fff;
+  background: #28a745;
+  border: none;
+  padding: 10px;
+  margin-top: 10px;
+}

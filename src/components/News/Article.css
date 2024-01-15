@@ -1,0 +1,26 @@
+.article {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.article .container {
+  display: grid;
+  grid-template-columns: 1fr 3fr 2fr;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.article .information h1 {
+  text-align: left;
+  font-size: 28px;
+}
+
+.article img {
+  width: 100%;
+}
+
+.article .information p {
+  text-align: left;
+  line-height: 1.5;
+  color: #000;
+}

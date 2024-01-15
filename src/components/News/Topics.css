@@ -1,0 +1,36 @@
+.topics {
+  width: 75%;
+  box-shadow: 0 1px 4px rgb(0 0 0 / 16%);
+  margin: 0 auto;
+  border-radius: 10px;
+  padding: 5px 20px 20px 20px;
+  margin-bottom: 30px;
+}
+
+.topics .hd {
+  display: flex;
+  align-items: center;
+}
+
+.topics img {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  padding: 7px 0;
+}
+
+.topics .t {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px dotted #dcdddf;
+}
+
+.topics .t img {
+  width: 25px;
+  height: 25px;
+}
+
+.topics .t p {
+  font-size: 14px;
+  font-weight: 400;
+}

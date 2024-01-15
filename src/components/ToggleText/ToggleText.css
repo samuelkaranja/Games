@@ -1,0 +1,39 @@
+.toggletext {
+  padding: 10px 15px;
+}
+
+.toggletext h2 {
+  text-align: left;
+}
+
+.toggletext span {
+  display: block;
+  text-align: left;
+}
+
+.toggletext p {
+  text-align: left;
+}
+
+.toggletext .tt {
+  font-weight: bold;
+  text-decoration: underline;
+  padding-bottom: 7px;
+}
+
+.toggletext .info {
+  padding-bottom: 30px;
+  font-size: 16px;
+  color: #212529;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.toggletext .more {
+  background-color: #222;
+  color: #fff;
+  font-size: 15px;
+  border-radius: 20px;
+  padding: 5px 30px;
+  border: none;
+}

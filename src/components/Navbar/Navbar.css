@@ -1,0 +1,36 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #333;
+  align-items: center;
+  padding: 0 150px;
+}
+
+.navbar .nav-links ul li {
+  list-style-type: none;
+  display: inline;
+  padding: 0 10px;
+}
+
+.navbar .nav-links a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.navbar .nav-links a:hover {
+  text-decoration: underline;
+}
+
+.navbar .sms {
+  background-color: #12994a;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.navbar .sms a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+}

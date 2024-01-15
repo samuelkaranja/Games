@@ -1,0 +1,9 @@
+.results .container {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  justify-content: center;
+}
+
+.results .main {
+  margin-top: 20px;
+}

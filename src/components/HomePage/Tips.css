@@ -1,0 +1,54 @@
+.tips {
+  box-shadow: 2px 2px 4px #888888;
+  padding: 15px;
+  margin-bottom: 10px;
+}
+
+.tips .head,
+.tips .teams {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tips .head .lg img {
+  width: 14px;
+  height: 14px;
+  margin-right: 5px;
+}
+
+.tips .head .lg span {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.tips .head .time span {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.tips .teams .tm {
+  padding-top: 5px;
+}
+
+.tips .teams .tm span {
+  display: block;
+  text-align: left;
+  color: rgb(47, 79, 79);
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.tips .teams .btn {
+  background-color: #fff;
+  border: 2px solid #12994a;
+  padding: 5px 20px;
+  border-radius: 10px;
+}
+
+.tips .teams .btn a {
+  text-decoration: none;
+  color: #12994a;
+  font-weight: 500;
+}

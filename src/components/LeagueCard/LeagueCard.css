@@ -1,0 +1,55 @@
+.leaguecard {
+  width: 85%;
+  margin: 0 auto 30px auto;
+}
+
+.leaguecard .leagues {
+  box-shadow: 2px 2px 4px #888888;
+}
+
+.leaguecard .leagues .hd {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(67 67 67);
+  color: #fff;
+  padding: 10px;
+}
+
+.leaguecard .leagues .hd span {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.leaguecard .leagues .hd a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.leaguecard .leagues .lgs {
+  padding: 15px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.leaguecard .leagues .lgs .l {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.leaguecard .leagues .lgs img {
+  width: 30px;
+  margin-right: 3px;
+}
+
+.leaguecard .leagues .lgs a {
+  text-decoration: none;
+  color: #212529;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.leaguecard .leagues .lgs a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}

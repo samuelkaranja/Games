@@ -1,0 +1,57 @@
+.highlights {
+  width: 85%;
+  margin: 0 auto 30px auto;
+}
+
+.highlights .ht {
+  box-shadow: 2px 2px 4px #888888;
+}
+
+.highlights .hd {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(67 67 67);
+  color: #fff;
+  padding: 10px;
+}
+
+.highlights .hd span {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.highlights .hd a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.highlights .gm {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px dotted darkgrey;
+  padding: 10px 15px;
+}
+
+.highlights .gm img {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.highlights .gm .t .teams {
+  display: block;
+  font-size: 12px;
+  font-weight: 700;
+  text-align: left;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  color: #212529;
+}
+
+.highlights .gm .t .date {
+  font-size: 12px;
+  font-weight: 700;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #636363;
+}

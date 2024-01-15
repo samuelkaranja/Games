@@ -1,0 +1,46 @@
+.morenews {
+  width: 75%;
+  box-shadow: 0 1px 4px rgb(0 0 0 / 16%);
+  margin: 0 auto;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.morenews .hd {
+  display: flex;
+  align-items: center;
+}
+
+.morenews .hd img {
+  width: 15px;
+  height: 15px;
+  margin-right: 7px;
+}
+
+.morenews .m {
+  padding-bottom: 20px;
+}
+
+.morenews .m img {
+  width: 100%;
+}
+
+.morenews .m a {
+  display: flex;
+  text-align: left;
+  text-decoration: none;
+  color: #000;
+  padding-top: 5px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.morenews .m a:hover {
+  text-decoration: underline;
+}
+
+.morenews .m p {
+  text-align: left;
+  margin-top: 7px;
+  font-size: 13px;
+}

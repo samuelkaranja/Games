@@ -15,3 +15,4 @@ export { default as TopNews } from "./News/TopNews";
 export { default as MoreNews } from "./News/MoreNews";
 export { default as Article } from "./News/Article";
 export { default as RelatedTopics } from "./News/RelatedTopics";
+export { default as Pricing } from "./DepositPage/Pricing";

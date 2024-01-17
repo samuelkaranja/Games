@@ -1,0 +1,34 @@
+/* ......... Form ............ */
+.pay_form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pay_form form {
+  width: 100%;
+}
+
+.pay_form input {
+  text-align: center;
+  border: none;
+}
+
+.pay_form input:focus {
+  outline: none;
+}
+
+.pay_form input::placeholder {
+  text-align: center;
+  font-size: 16px;
+}
+
+.pay_form button {
+  background: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  width: 100%;
+  margin: auto;
+}

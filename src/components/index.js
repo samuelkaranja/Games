@@ -1,6 +1,8 @@
 export { default as Header } from "./Header/Header";
 export { default as Navbar } from "./Navbar/Navbar";
 export { default as Footer } from "./Footer/Footer";
+export { default as HomeLayout } from "./Layout/HomeLayout";
+export { default as NewsLayout } from "./Layout/NewsLayout";
 export { default as Tips } from "./HomePage/Tips";
 export { default as TipInfo } from "./TipInfo/TipInfo";
 export { default as Visitors } from "./HomePage/Visitors";

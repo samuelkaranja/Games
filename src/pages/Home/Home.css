@@ -1,11 +1,6 @@
-.home .container {
-  display: grid;
-  grid-template-columns: 1fr 2fr 1fr;
-}
-
-.home .main {
-  padding: 20px;
+.home {
   width: 95%;
+  margin: 0 auto;
 }
 
 .home .banner {
@@ -42,11 +37,4 @@
   width: 100%;
   padding-top: 5px;
   border-bottom: 4px solid #12994a;
-}
-
-/* Left Side Bar */
-
-.left_sidebar,
-.right_sidebar {
-  padding-top: 20px;
 }

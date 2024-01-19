@@ -1,8 +1,3 @@
-.news .container {
-  display: grid;
-  grid-template-columns: 1fr 2fr 1fr;
-}
-
 .news .content {
   width: 90%;
   margin: 20px auto;

@@ -3,7 +3,8 @@ import "./Tips.css";
 import Ball from "../../assets/images/football.png";
 import { Link } from "react-router-dom";
 
-const Tips = ({ league, date, time, team1, team2 }) => {
+const Tips = ({ game }) => {
+  const { id, team1, team2, league, date, time } = game;
   return (
     <div className="tips">
       <div className="head">
@@ -24,7 +25,7 @@ const Tips = ({ league, date, time, team1, team2 }) => {
           <span>{team2}</span>
         </div>
         <div className="btn">
-          <Link to="/results">View Tip</Link>
+          <Link to={`/results/${id}`}>View Tip</Link>
         </div>
       </div>
     </div>

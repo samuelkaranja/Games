@@ -1,8 +1,17 @@
 import "./TipInfo.css";
 import Ball from "../../assets/images/football.png";
-import { Link } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
+import { Games } from "../../assets/data/Games";
 
 const TipInfo = () => {
+  const { id } = useParams();
+
+  const tip = Games.find((game) => game.id === parseInt(id));
+
+  if (!tip) {
+    return <div>Tip not found</div>;
+  }
+
   return (
     <div className="tipinfo">
       <div className="hd">
@@ -11,15 +20,15 @@ const TipInfo = () => {
       <div className="info">
         <div className="l">
           <img src={Ball} alt="" />
-          <span>English Premier League</span>
+          <span>{tip.league}</span>
         </div>
         <div className="t">
-          <span>Manchester United</span>
-          <span>1.80</span>
-          <span>Arsenal</span>
+          <span>{tip.team1}</span>
+          <span>{tip.odds}</span>
+          <span>{tip.team2}</span>
         </div>
         <div className="w">
-          <span>Home Win</span>
+          <span>{tip.win} Win</span>
         </div>
       </div>
     </div>

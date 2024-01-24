@@ -1,27 +1,44 @@
 import React from "react";
 import "./Register.css";
+import Form from "../../components/Form/Form";
 import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 const Register = () => {
+  const handleRegister = (formData) => {
+    console.log("Creating account", formData);
+  };
+
+  const registerInputs = [
+    {
+      label: "Enter Your Phone Number",
+      type: "number",
+      name: "phonenumber",
+      placeholder: "07xxxxxxxx",
+    },
+    {
+      label: "Enter Password",
+      type: "password",
+      name: "password",
+      placeholder: "**********",
+    },
+    {
+      label: "Confirm Password",
+      type: "password",
+      name: "confirmPassword",
+      placeholder: "**********",
+    },
+  ];
+
   return (
     <div className="register">
       <h1>Create Account</h1>
-      <div className="frm">
-        <form>
-          <label>Enter Your Phone Number</label>
-          <input type="tel" placeholder="07xxxxxxxx" />
-          <label>Enter Password</label>
-          <input type="password" placeholder="xxxxxxxxxx" />
-          <label>Confirm Password</label>
-          <input type="password" placeholder="xxxxxxxxxx" />
-          <button className="reg_btn" type="submit">
-            Enter
-          </button>
-        </form>
+      <Form onSubmit={handleRegister} inputs={registerInputs} />
+      <div className="sign">
+        <span>
+          Already have an account? <Link to="/login">Login</Link>
+        </span>
       </div>
-      <p>
-        Already have an account? <Link to="/login">Login</Link>
-      </p>
     </div>
   );
 };

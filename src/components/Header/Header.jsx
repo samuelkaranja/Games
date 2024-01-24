@@ -12,9 +12,9 @@ const Header = () => {
         </Link>
       </div>
       <div className="registration">
-        <a href="/#" className="login">
+        <Link className="login" to="/login">
           LOGIN
-        </a>
+        </Link>
         <Link to="/register" className="register">
           REGISTER
         </Link>

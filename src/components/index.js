@@ -19,3 +19,5 @@ export { default as Article } from "./News/Article";
 export { default as RelatedTopics } from "./News/RelatedTopics";
 export { default as Pricing } from "./DepositPage/Pricing";
 export { default as Form } from "./Form/Form";
+export { default as LivescoreNavbar } from "./Livescore/LivescoreNavbar";
+export { default as LiveGames } from "./Livescore/LiveGames";

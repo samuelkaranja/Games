@@ -1,0 +1,93 @@
+/* ........ Livescore Navbar Component ....... */
+
+.livescorenavbar {
+  background: green;
+}
+
+.livescorenavbar ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.livescorenavbar ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.livescorenavbar ul li a:hover {
+  text-decoration: underline;
+}
+
+/* ........ Live Games Component ....... */
+
+.livegames {
+  padding: 20px;
+}
+
+.livegames .league {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.livegames .league img {
+  width: 20px;
+  height: 20px;
+  padding-right: 8px;
+}
+
+.livegames .league span {
+  font-weight: 500;
+}
+
+.livegames .match {
+  display: flex;
+  justify-content: space-evenly;
+  text-decoration: none;
+  align-items: center;
+  box-shadow: 2px 2px 4px #888888;
+  border-radius: 5px;
+  padding-bottom: 10px;
+  margin-bottom: 12px;
+}
+
+.livegames .match .team1,
+.livegames .match .team2 {
+  display: flex;
+  align-items: center;
+}
+
+.livegames .match .team1 span,
+.livegames .match .team2 span {
+  color: #000;
+  font-weight: 600;
+}
+
+.livegames .match img {
+  width: 20px;
+  height: 20px;
+  padding: 0 25px;
+}
+
+.livegames .match .score {
+  padding: 32px 0 0 0;
+}
+
+.livegames .match .score span {
+  display: block;
+  padding-bottom: 8px;
+}
+
+.livegames .match .score span:first-child {
+  color: #000;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.livegames .match .score span:last-child {
+  color: green;
+}

@@ -2,6 +2,8 @@ export { default as Home } from "./Home/Home.jsx";
 export { default as Results } from "./Results/Results.jsx";
 export { default as Deposit } from "./Deposit/Deposit.jsx";
 export { default as News } from "./News/News.jsx";
+export { default as Livescore } from "./Livescore/Livescore.jsx";
+export { default as GameDetails } from "./GameDetails/GameDetails.jsx";
 export { default as Register } from "./Register/Register.jsx";
 export { default as Login } from "./Login/Login.jsx";
 export { default as ForgotPassword } from "./ForgotPassword/ForgotPassword.jsx";
